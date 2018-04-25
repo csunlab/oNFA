@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Ahmad, Derrible, Managi. A Network-Based Frequency Approach to 
-Representing the Inclusive Wealth of World Countries.
+Ahmad, N., Derrible, S., Managi, S., 2018, A network-based frequency analysis of
+Inclusive Wealth to track sustainable development in world countries,
+Journal of Environmental Management, 218:348-354,
+https://doi.org/10.1016/j.jenvman.2018.04.070.
 """
 
 import csv
@@ -14,7 +16,6 @@ from operator import itemgetter
 import matplotlib.pyplot as plt
 import time
 
-    
 def network_optimum(filename,year):
     
     df=pd.read_csv('%s.csv'%(filename))
