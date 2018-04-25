@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Ahmad, Derrible, Managi. A Network-Based Frequency Approach to 
-Representing the Inclusive Wealth of World Countries.
-
+Ahmad, N., Derrible, S., Managi, S., 2018, A network-based frequency analysis of
+Inclusive Wealth to track sustainable development in world countries,
+Journal of Environmental Management, 218:348-354,
+https://doi.org/10.1016/j.jenvman.2018.04.070.
 """
+
 import os 
 import pandas as pd 
-
-
-
 
 
 def max_o_pos(filename):
