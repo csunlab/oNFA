@@ -4,4 +4,6 @@ Ahmad, N., Derrible, S., Managi, S., 2018, A network-based frequency analysis of
 
 version 1.00 - for Python 2
 
+To follow a tutorial, visit https://csun.uic.edu/codes/oNFA.html
+
 There are issues with this version, please see latest version.
