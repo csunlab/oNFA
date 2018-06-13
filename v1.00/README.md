@@ -1,5 +1,7 @@
-README - orbital Network-based Frequency Analysis (oNFA)
+README - orbital Network-based Frequency Analysis (NFA)
 
-Ahmad, N., Derrible, S., Managi, S., (2018) A Network-Based Frequency Approach to Representing the Inclusive Wealth of World Countries. Journal of Environmental Management, in press.
+Ahmad, N., Derrible, S., Managi, S., 2018, A network-based frequency analysis of Inclusive Wealth to track sustainable development in world countries, Journal of Environmental Management, 218:348-354, https://doi.org/10.1016/j.jenvman.2018.04.070.
 
-version 1.00
+version 1.00 - for Python 2
+
+There are issues with this version, please see latest version.
