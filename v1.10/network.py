@@ -18,12 +18,14 @@ def network_complete(filename):
     df=pd.read_csv('%s.csv'%(filename))
     df=df.replace(np.NaN,-5,regex=True)
     
+    
     def network(year,cutoff):
         df1=df[['Country','%s'%(year)]]
+        
         df1=df1[df1['%s'%(year)]!=-5]
         
         #print df1.head(),len(df1.index)
-       
+        
         g=Graph()
         
         value=list(df1['%s'%(year)])
@@ -110,5 +112,6 @@ def network_complete(filename):
     
         df_param.to_csv(os.path.join(mypath,
         '%s_parameters_%s.csv'%(filename,year)),index=False)
+    
 
 #print 'Total time taken-',datetime.datetime.now()-Time
