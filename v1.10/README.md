@@ -11,6 +11,8 @@ What’s new
 
 - adapted to work with Python 2 and 3
 
+- adapted to work with Windows and Mac by adding an if statement in optimum_network.py when outputting results in a csv file
+
 - generalized code from version 1.00
 
 - minor bug fix
