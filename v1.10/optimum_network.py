@@ -89,8 +89,13 @@ def network_optimum(filename,year):
 #    
 #    df_optimum.to_csv('test_optimum.csv',index=False)
     
-    out=open(os.path.join(mypath,
-    '%s_optimum_%s.csv'%(filename,year)),'wb')
+    if os.name == 'nt':
+        out=open(os.path.join(mypath,
+        '%s_optimum_%s.csv'%(filename,year)),'wb')
+    else:
+        out=open(os.path.join(mypath,
+        '%s_optimum_%s.csv'%(filename,year)),'w')
+
     new=csv.writer(out)
     new.writerow(df_co.columns)
     new.writerow(df_co.iloc[0])
